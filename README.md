@@ -8,11 +8,23 @@ Python OpenHMD bindings
 * OpenHMD http://openhmd.net/
 * Cython
 
+### Raspberry Pi (Stretch)
+
+sudo apt-get install openhmd0 libopenhmd-dev
+sudo pip3 install Cython
+
 ## Install
 
 ```
 $ ./setup.py install
 ```
+
+### Pip bsaed Install to user's repo
+
+```
+$ pip3 install . --user
+```
+
 
 ## Arch Linux Package
 
